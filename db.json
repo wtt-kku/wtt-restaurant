@@ -1,0 +1,55 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "สลัด",
+      "unitPrice": "150",
+      "thumbnail": "/images/product/1.jpg"
+    },
+    {
+      "id": 2,
+      "productName": "สเต็ก",
+      "unitPrice": "150",
+      "thumbnail": "/images/product/2.jpg"
+    },
+    {
+      "id": 3,
+      "productName": "ไอสครีม",
+      "unitPrice": "50",
+      "thumbnail": "/images/product/3.jpg"
+    },
+    {
+      "id": 4,
+      "productName": "เฟรนฟราย",
+      "unitPrice": "140",
+      "thumbnail": "/images/product/4.jpg"
+    }
+  ],
+  "orders": [
+    {
+      "orderedDate": "2020-12-24T11:07:02.999Z",
+      "totalPrice": 430,
+      "orders": [
+        {
+          "product": {
+            "id": 1,
+            "productName": "สลัด",
+            "unitPrice": "150",
+            "thumbnail": "/images/product/1.jpg"
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": 2,
+            "productName": "สเต็ก",
+            "unitPrice": "140",
+            "thumbnail": "/images/product/2.jpg"
+          },
+          "quantity": 2
+        }
+      ],
+      "id": 1
+    }
+  ]
+}
